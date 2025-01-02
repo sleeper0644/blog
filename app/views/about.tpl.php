@@ -4,6 +4,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <?= $post ?>
+
                     </div>
                     <?php require 'incs/sidebar.php' ?>   
                 </div>
