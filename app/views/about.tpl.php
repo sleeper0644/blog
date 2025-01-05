@@ -10,4 +10,4 @@
                 </div>
             </div>
         </main>
-        <?php require VIEWS . 'incs/footer.php' ?>
+        <?php require VIEWS . '/incs/footer.php' ?>
