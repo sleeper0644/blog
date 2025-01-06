@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f0e9b1-9192-456d-9ab2-d37ec22eade0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/errors/404.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/about.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/incs/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/incs/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/func.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/func.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +76,7 @@
       <workItem from="1736003856391" duration="4422000" />
       <workItem from="1736081123978" duration="4750000" />
       <workItem from="1736098457745" duration="3139000" />
+      <workItem from="1736146408218" duration="2025000" />
     </task>
     <servers />
   </component>
