@@ -1,38 +1,9 @@
 <?php
 $title = 'MY BLOG :: HOME';
 
-$posts = [
-    1 => [
-        'title' => 'Title 1',
-        'desc' => 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-        'slug' => 'title-1'
-    ],
-    2 => [
-        'title' => 'Title 2',
-        'desc' => 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-        'slug' => 'title-2'
-    ],
-    3 => [
-        'title' => 'Title 3',
-        'desc' => 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-        'slug' => 'title-3'
-    ]
-];
+$posts = $db->query("SELECT * FROM posts ORDER BY id DESC ")->fetchAll();
+$recent_posts = $db->query("SELECT * FROM posts ORDER BY id DESC LIMIT 3")->fetchAll();
 
-$recent_posts = [
-    1 => [
-        'title' => 'An item',
-        'slug' => lcfirst(str_replace(' ','-','An item'))
-    ],
-    2 => [
-        'title' => 'A second item',
-        'slug' => lcfirst(str_replace(' ','-','A second item'))
-    ],
-    3 => [
-        'title' => 'A third item',
-        'slug' => lcfirst(str_replace(' ','-','A third item'))
-    ],
-];
 
 require VIEWS . "/index.tpl.php";
 
