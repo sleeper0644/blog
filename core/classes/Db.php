@@ -9,12 +9,28 @@ use PDOStatement;
 class Db
 {
     private $connection;
+    public static $instance = null;
+
+    public function __construct()
+    {
+    }
+    public function __clone(): void
+    {
+    }
+
+    public static function getInstance(){
+        if (self::$instance == null) {
+            self::$instance = new  self();
+        }
+        return self::$instance;
+    }
     private PDOStatement $stmt;
-    public function __construct(array $db_config)
+    public function getConnection(array $db_config)
     {
         $dsn = "mysql:host = {$db_config['host']};dbname={$db_config['dbname']};charset={$db_config['charset']}";
         try {
             $this->connection = new PDO($dsn, $db_config['user'], $db_config['password'], $db_config['options']);
+            return $this;
         }
         catch (PDOException $e) {
             abort(500);
