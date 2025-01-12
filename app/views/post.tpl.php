@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3><?= $post['title'] ?></h3>
+                    <h3><?= h($post['title']) ?></h3>
                     <p><?= $post['content'] ?></p>
                 </div>
             </div>

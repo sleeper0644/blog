@@ -8,12 +8,12 @@
     <list default="true" id="62f0e9b1-9192-456d-9ab2-d37ec22eade0" name="Changes" comment="" />
 =======
     <list default="true" id="62f0e9b1-9192-456d-9ab2-d37ec22eade0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/post-create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/post-create.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/incs/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/incs/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/post-create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/post-create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/index.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/post-create.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/post-create.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/post.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/post.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/Db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/func.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/func.php" afterDir="false" />
     </list>
 >>>>>>> lesson9
@@ -41,18 +41,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/xampp/htdocs/stady.loc/app/views",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/stady.loc/app/views&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\stady.loc\app\views" />
